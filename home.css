@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    background-color:#fdf0d5; 
+    color:#2b2d42;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hello {
+    background-color:#a68a64;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3cm;
+    font-size: 20px;
+}
+.headerleft {
+    flex:1;
+}
+.header1 {
+    color:#1c1c28;
+    text-align: left;
+    font-size: 50px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.3cm;
+    margin-left: 3cm;
+    
+}
+.headerright {
+    display: flex;
+    align-items: center;
+}
+.headerright :hover{
+    color: #a69a64;
+    text-decoration: underline;
+}
+.header {
+    color:#2b2d42;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 4px;
+   margin-right: 4px;
+   text-decoration: none; 
+}
+
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #2b2d42;
+    line-height: 60px;
+    margin-left: 5%;
+    
+    
+}
+.cutom-hr , .container1 {
+    flex: 1;
+}
+.container1 {
+    display: flex;
+    justify-content: flex-end;
+}
+.img1 {
+    width: 250px;
+    height: auto;
+    margin-right: 10%;
+       
+}
+main2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 20px;
+}
+.container2, .about {
+    flex: 1;
+}
+.container2 {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.about {
+    margin-right: 50px;
+}
+.img2 {
+    width: 300px;
+    height: auto;
+    margin: 0px;
+}
+.p {
+    font-size: 30px;
+}
+#aboutme {
+    font-size: 50px;
+}
+.about {
+    color:#1c1c28;
+}
+.footer{
+   
+    background-color:#a68a64; 
+    text-align: center;
+    color: #fdf0d5;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#icon {
+    background-color:#a68a64 ;
+    
+    
+}
+.footer :hover {
+    color: #1c1c28;
+}
